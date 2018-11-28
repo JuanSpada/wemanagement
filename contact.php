@@ -3,16 +3,16 @@
 // configure
 $from = 'juan@wemanagement.com.ar';
 $sendTo = 'juan@wemanagement.com.ar, gloria@wemanagement.com.ar'; // Add Your Email
-$subject = 'New message from contact form';
-$fields = array('name' => 'Name', 'subject' => 'Subject', 'email' => 'Email', 'message' => 'Message'); // array variable name => Text to appear in the email
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
-$errorMessage = 'There was an error while submitting the form. Please try again later';
+$subject = 'New Lead Home | We Management';
+$fields = array('Nombre' => 'Name', 'Asunto' => 'Subject', 'Email' => 'Email', 'Mensaje' => 'Message'); // array variable name => Text to appear in the email
+$okMessage = 'Tu consulta fue recibida. Muchas gracias, dentro de poco nos pondremos en contacto!';
+$errorMessage = 'Hay un error, por favor proba más tarde.';
 
 // let's do the sending
 
 try
 {
-    $emailText = "You have new message from contact form\n=============================\n";
+    $emailText = "Alguien completo el formulario de la página web www.wemanagement.com.ar xD!\n=============================\n";
 
     foreach ($_POST as $key => $value) {
 
