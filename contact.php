@@ -2,7 +2,7 @@
 
 // configure
 $from = 'juan@wemanagement.com.ar';
-$sendTo = 'juan@wemanagement.com.ar, gloria@wemanagement.com.ar'; // Add Your Email
+$sendTo = 'juan@wemanagement.com.ar, bruno@wemanagement.com.ar, valentin@wemanagement.com.ar'; // Add Your Email
 $subject = 'New Lead Home | We Management';
 $fields = array('name' => 'Nombre', 'subject' => 'Asunto', 'email' => 'Email', 'message' => 'Mensaje'); // array variable name => Text to appear in the email
 $okMessage = 'Tu consulta fue recibida. Muchas gracias, dentro de poco nos pondremos en contacto!';
