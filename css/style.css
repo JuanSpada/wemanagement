@@ -332,6 +332,7 @@ span, a, a:hover {
   min-height: calc(100vh + 80px);
   padding-bottom: 80px;
   overflow: hidden;
+  color: white;
 }
 .header .caption .o-hidden {
   display: inline-block;

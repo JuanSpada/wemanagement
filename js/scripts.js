@@ -46,7 +46,7 @@ $(function() {
         }else{
 
             navbar.removeClass("nav-scroll");
-            logo.attr('src', 'img/logo.png');
+            logo.attr('src', 'img/logoblanco.png');
         }
     });
 
